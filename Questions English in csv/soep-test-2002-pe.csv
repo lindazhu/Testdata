@@ -1,0 +1,51 @@
+Question Number;Variable Name;Label;Question;Response
+Q1;PSEX;Sex;Your sex;1: Male
+;;;;2: Female
+Q2;PPGEB;Year of Birth;Your year of birth;Numeric (min 1891, max 2001)
+Q3;PPNAT;Nationality;What is your nationality?;Open
+Q4;PFAMST;Civil Status;What is your civil status?;1: Married, cohabiting
+;;;;2: Married, permanently separated
+;;;;3: Single
+;;;;4: Divorced
+;;;;5: Widowed
+Q5;PFS XXX 1;Family Changes;Has your family status changed since 2000/12/31?;11: Married
+;;;;21: Moved together with partner
+;;;;31: Child was born
+;;;;111: Child entered household
+;;;;41: Daughter/son left household
+;;;;51: Seperated from partner/spouse
+;;;;61: Divorced
+;;;;71: Partner/ spouse passed away
+;;;;81: Father passed away
+;;;;91: Mother passed away
+;;;;131: Another person in household passed away
+;;;;101: Other family changes
+Q6;PZULE1;Satisfaction;How satisfied are you currently altogether with your life?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+Q7;PZUF XX;Satisfaction;How satisfied are you currently with the following areas?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your health?;
+;;;with your sleep?;
+;;;(in case of employment) with your work?;
+;;;with your household income?;
+;;;with your personal income?;
+;;;with your accomodation?;
+;;;with your leisure time?;
+;;;with your family life?;
+;;;(in case of having children in pre-school age) with the existing possibilities of daycare?;
+;;;with the democacy how it is persisting in Germany?;
+Q8;PBER;Occupational Activity  (exact);What kind of occupation do you carry out at the moment?;Open
+Q9;PVEK012;Income/ Wage (amount);Please specify the average monthly amount for the following income: wage as employee (incl. apprenticeship pay, partial retirement pay, employee leave benefits) (gross amount before taxes and social insurance fees);Numeric (min 1, max 1000000)
+Q10;PVEK021;Income/ Selfemployment (amount);Please specify the average monthly amount for the following income: income from selfemployment/ freelance work  (gross amount before taxes and social insurance fees);Numeric (min 1, max 1000000)
+Q11;PPOL1;Interest in Politics;In general: How strong is your interest in politics?;1: Very strong
+;;;;2: Strong
+;;;;3: Not very strong
+;;;;4: Not at all
+Q12;PPOL3;Party;Which party do you lean towards?;1: SPD
+;;;;2: CDU
+;;;;3: CSU
+;;;;4: FDP
+;;;;5: BÅndnis90/Die GrÅnen
+;;;;6: Die Linke
+;;;;7: DVU/ Republikaner/NPD
+;;;;8: Others
+Q13;PGR;Body height;What is your body height in cm? (If unknown, please make a guess.);Numeric (max 230)
+;PKILO;Body weight;What is your body weight in kg? (If unknown, please make a guess.);Numeric (max 300)
