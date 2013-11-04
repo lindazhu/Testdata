@@ -13,5 +13,13 @@ Q24;LWIED;Domicile before 1989;Where have you been living before the German reun
 ;;;;4: Inapplicable, I was born in 1989 or later
 Q25;LGESCH1;Siblings;Do or did you have siblings?;1: Yes
 ;;;;2: No
-Q26;LAB XX 1;Degree of education;What kind of educational degree was it?  (Multiple answers possible!);1: Apprenticeship
-;;;;02:00
+Q26;LAB XX 1;Degree of education;What kind of educational degree was it?  (Multiple answers possible!);2: Apprenticeship (GDR: craftsman degree)
+;;;;3: Vocational school, business school, health school
+;;;;4: Technical school, i.e. technican degree, master degree
+;;;;5: Public officer education
+;;;;6: University of applied science, university of cooperative education
+;;;;7: University degree
+;;;;8: Other degree
+Q27;LKNO;Children;Do you have children or have you had children?;2: Yes
+;;;;1: No
+Q28;Lkind;Number of Children;If yes, how many?;Numeric (max 15)
