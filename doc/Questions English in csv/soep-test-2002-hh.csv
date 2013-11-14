@@ -1,0 +1,14 @@
+Question Number;Variable Name;Label;Question;Response
+Q14;HKIND;Children;Are there any children in your household that are born in 1986 or later? (<16);1: Yes
+;;;;2: No
+Q15;HKIND DUMMY;Dummy for Number of Children;How many children are there in your household?;Numeric (max 20)
+Q16;HKGEB ABCD;Year of Birth Child;Please enter the year of birth: ;Numeric (min 1986, max 2002)
+Q17;HVJ;Change of Residence;Were you dwelling in this appartment last year during our interview?;1: Yes
+;;;;2: No
+Q18;HWOHN08;Residential Area;How would you describe this residential area?;1: A mere residential area with predominantly old buildings
+;;;;2: A mere residential area with predominantly new buildings
+;;;;3: Mixed area with appartments and stores/ industrial units
+;;;;4: Commercial area (stores, banks, administration) with few appartments
+;;;;5: Industrial units area with few appartments
+Q19;HM04;Rent in Euro;How much is your monthly rent? [Euro];Numeric (max 9999)
+Q20;HNETTO;Total Income per Month;When adding all income sources: How much is the total household income of all household members today? (Please state the monthly amount after taxes and social insurance contributions. Please add periodic payments such as pensions, housing allowance, child allowance, BAf?G, subsistence allowance etc. (If not known exactly: Please guess the monthly amount.) ;Open

@@ -1,0 +1,25 @@
+Question Number;Variable Name;Label;Question;Response
+Q21;LSTA1;Germany Nativity;Are you born in Germany?;1: Yes
+;;;;2: No
+Q22;LZUG01;Moving to Germany;When did you move to the Federal Republic of Germany?;Numeric (max 2011)
+Q23;LZUG02;Immigrant Group;To which of the following immigrant groups do you belong when migrating to Germany?;1: Emigrant, meaning German speaking people from easteuropean countries
+;;;;2: German that has been living overseas for some time
+;;;;3: Citizen of EU member  state
+;;;;4: Asylum seeker or refugee
+;;;;5: Other foreigner
+Q24;LWIED;Domicile before 1989;Where have you been living before the German reunification, before 1989?;1: German Democratic Republic incl. East-Berlin
+;;;;2: Federal German Republic incl. West-Berlin
+;;;;3: In another country
+;;;;4: Inapplicable, I was born in 1989 or later
+Q25;LGESCH1;Siblings;Do or did you have siblings?;1: Yes
+;;;;2: No
+Q26;LAB XX 1;Degree of education;What kind of educational degree was it?  (Multiple answers possible!);2: Apprenticeship (GDR: craftsman degree)
+;;;;3: Vocational school, business school, health school
+;;;;4: Technical school, i.e. technican degree, master degree
+;;;;5: Public officer education
+;;;;6: University of applied science, university of cooperative education
+;;;;7: University degree
+;;;;8: Other degree
+Q27;LKNO;Children;Do you have children or have you had children?;2: Yes
+;;;;1: No
+Q28;Lkind;Number of Children;If yes, how many?;Numeric (max 15)
