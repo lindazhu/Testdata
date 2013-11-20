@@ -1,0 +1,24 @@
+glieder,name,label (engl)
+1,h,household information
+"1,1",hkind,child information
+"1,2",hhome,living information
+1.2.1,hmov,moving
+1.2.2,hres,neighborhood surroundings and residential information
+1.2.3,hrent,rent
+"1,3",hinc,household income
+2,p,personal information
+"2,1",pbirth,birth information
+"2,2",psex,sex
+"2,3",pnat,nationality
+"2,4",pmov,moving to Germany
+"2,5",pfam,family information
+2.5.1,pchild,child information
+2.5.2,psib,sibling information
+2.5.3,pfamchange,family changes
+"2,6",peduc,last educational degree
+"2,7",pwork,working information
+2.7.1,pinc,personal income
+2.7.2,pjob,occupation
+"2,8",psat,satisfaction level
+"2,9",ppol,politics
+"2,1",pbod,body weight and height

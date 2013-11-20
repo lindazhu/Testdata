@@ -17,21 +17,22 @@ Q5;PFS XXX 1;Family Changes;Has your family status changed since 1999/12/31?;11:
 ;;;;61: Divorced
 ;;;;71: Partner/ spouse passed away
 ;;;;81: Father passed away
+;;;;121: Child passed away
 ;;;;91: Mother passed away
 ;;;;131: Another person in household passed away
 ;;;;101: Other family changes
 Q6;PZULE1;Satisfaction;How satisfied are you currently altogether with your life?;"""0"" not satisfied at all, ""10"" throughout satisfied"
 Q7;PZUF XX;Satisfaction;How satisfied are you currently with the following areas?;"""0"" not satisfied at all, ""10"" throughout satisfied"
-;;;with your health?;
-;;;with your sleep?;
-;;;(in case of employment) with your work?;
-;;;with your household income?;
-;;;with your personal income?;
-;;;with your accomodation?;
-;;;with your leisure time?;
-;;;with your family life?;
-;;;(in case of having children in pre-school age) with the existing possibilities of daycare?;
-;;;with the democacy how it is persisting in Germany?;
+;;;with your health?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your sleep?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;(in case of employment) with your work?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your household income?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your personal income?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your accomodation?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your leisure time?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with your family life?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;(in case of having children in pre-school age) with the existing possibilities of daycare?;"""0"" not satisfied at all, ""10"" throughout satisfied"
+;;;with the democacy how it is persisting in Germany?;"""0"" not satisfied at all, ""10"" throughout satisfied"
 Q8;PBER;Occupational Activity  (exact);What kind of occupation do you carry out at the moment?;Open
 Q9;PVEK012;Income/ Wage (amount);Please specify the average monthly amount for the following income: wage as employee (incl. apprenticeship pay, partial retirement pay, employee leave benefits) (gross amount before taxes and social insurance fees);Numeric (min 1, max 1000000)
 Q10;PVEK021;Income/ Selfemployment (amount);Please specify the average monthly amount for the following income: income from selfemployment/ freelance work  (gross amount before taxes and social insurance fees);Numeric (min 1, max 1000000)

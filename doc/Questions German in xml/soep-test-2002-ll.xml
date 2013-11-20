@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://onlinetest.tns-global.com/confirm/authoringschema.xsd">
+<ProjectInfo ApprovalState_Int="0" ProjectType_Int="0" HasUploadedRespondents="false" Confirmit125_DBFormat_Support="false" ReusableDB_Support="false" EnforceVersion="false" NewLayoutEnabled="true" SurveyLayoutName="TNS 6D V1.0" SurveyLayoutId="(0:0-312187895#293419165, 674)" Status="production" DefaultLanguage="7" CustomNavigationType="Button" SurveyLogicMode="ConditionBased" ExternalTestEnabled="false" ExternalTestKey="" ShowDeleted="false" ProgressBar="false" ReservedErrorArea="false" BackButton="true" CapiBackButton="true" ContinueLink="false" AllowModify="true" AllowModifyComplete="true" Popup="false" AnswerRequired="true" Exclusivity="true" OtherSpecify="true" RankOrder="true" CapiLimitedSurvey="false" LoginPage="false" IsCapiBasedSurvey="false" IsWebBasedSurvey="true" CustomNavigationEnabled="false" LabelClick="false" RadioButtons="false" AutoNext="false" TabOnEnterKey="false" GridErrorHighlight="false" AnswerImageEnabled="false" Accessibility508="false" ErrorPrefix="false" OtherLabel="false" SingleSignOn="false" SingleSignOnFallback="false" OnlyUserId="false" DisplayPrecodesInCAPI="false" IsCapiSurveyIntegratedToFusion="false" WI_LaunchDate="4/7/2009 6:39:01 AM" QuotaVersion="1" PanelistRegistrationSurvey="false" ENC="0" LNC="0" BNC="0" PNC="0" SNC="0" FNC="8" MNC="0" HtmlEncodePipingExpressions="true" RequireXssSafeInput="true" EnforceHttps="false" EnableCAS="true" EncryptSystemRequestParameters="false" TestMode="false" IsEmpty="false" Use81WIGeneration="false">
+<Name><![CDATA[soep-test-2002-ll]]></Name>
+<Creator>DIW Hebing</Creator>
+<ApprovalStateDateChanged_Str>1/1/0001 12:00:00 AM</ApprovalStateDateChanged_Str>
+<Created>18-11-2013 15:20:50</Created>
+<CreatedDate>2009-03-18T15:40:45</CreatedDate>
+<TimeStamp>2009-04-07T06:38:49</TimeStamp>
+<ProjectStartDate>1970-01-01T01:00:00</ProjectStartDate>
+<ProjectEndDate>1970-01-01T01:00:00</ProjectEndDate>
+<Build></Build>
+<currentQuestionnaireVersion>1</currentQuestionnaireVersion>
+<QuestionnaireVersion>1</QuestionnaireVersion>
+<Languages><Language>7</Language></Languages>
+<ProjectID></ProjectID>
+<Company>TNS NL</Company>
+<CompanyId>21</CompanyId>
+<LogoFile />
+<ErrorRecipient>mhebing@diw.de</ErrorRecipient>
+<AnswerImageWidthRadioButton>-1</AnswerImageWidthRadioButton>
+<AnswerImageHeightRadioButton>-1</AnswerImageHeightRadioButton>
+<AnswerImageWidthCheckBox>-1</AnswerImageWidthCheckBox>
+<AnswerImageHeightCheckBox>-1</AnswerImageHeightCheckBox>
+<CustomNavigationNext />
+<CustomNavigationBack />
+<CustomNavigationOK />
+<HelpLinkTexts />
+<HelpLinkUrls />
+<EndLinkTexts />
+<EndLinkUrls />
+<Titles />
+<TranslationStatuses />
+<KeyWords />
+<QuestionnaireReviewerStatusRecipient />
+<QuestionnaireReviewerDisplayAnswersScales>false</QuestionnaireReviewerDisplayAnswersScales>
+<TranslationStatusRecipient />
+</ProjectInfo>
+<SurveyLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DefaultPageMasterName />
+<DefaultQuestionLayoutName />
+<LoginPageMasterName />
+<IsPublic>false</IsPublic>
+<ShowInExpress>false</ShowInExpress>
+<CompanySpecific>false</CompanySpecific>
+<Created>0001-01-01T00:00:00</Created>
+<Modified>0001-01-01T00:00:00</Modified>
+<QuestionLayouts />
+<PageLayouts />
+<PageMasters />
+<HtmlStyles />
+</SurveyLayout>
+<PredefinedLists />
+<Emails />
+<Routing>
+<Directive DirectiveType="Single">
+<PageMasterName />
+</Directive>
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q1LSTA1</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Deutschland Geburt</Title>
+<Text><![CDATA[Sind Sie in Deutschland geboren?<br>]]></Text>
+<Instruction><![CDATA[Gemeint ist: Deutschland bzw. BRD oder DDR in den Staatsgrenzen zur Zeit Ihrer Geburt.<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ja</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nein</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="2011" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q2LZUG01</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Zuzug Deutschland</Title>
+<Text><![CDATA[Wann sind Sie in die Bundesrepublik Deutschland zugezogen?<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Multi FieldWidth="1" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q3LZUG02</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Zuwanderergruppe</Title>
+<Text><![CDATA[Zu welcher der folgenden Zuwanderergruppen gehörten Sie, als Sie nach Deutschland kamen?<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Aussiedler, d.h. deutschstämmige Person aus osteuropäischen Staaten</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Deutscher, der längere Zeit im Ausland gelebt hat</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Bürger eines EU-Mitgliedstaates</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Asylbewerber oder Flüchtling</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Sonstiger Ausländer</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Multi>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q4LWIED</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Wohnort vor 1989</Title>
+<Text><![CDATA[Wo haben Sie vor der deutschen Wiedervereinigung, also vor 1989, gewohnt?]]></Text>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">In der DDR (einschließlich Berlin-Ost)</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">In der Bundesrepublik (einschließlich Berlin-West)</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">In einem anderen Land</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Trifft nicht zu, bin 1989 oder später geboren</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q5LGESCH1</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Geschwister</Title>
+<Text><![CDATA[Haben oder hatten Sie Geschwister?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ja</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nein</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Multi FieldWidth="1" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q6LAB XX 1</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Art Berufsausbildungsabschluss</Title>
+<Text><![CDATA[Was für ein Ausbildungs- oder Studienabschluss war das?<br>]]></Text>
+<Instruction><![CDATA[Mehrfachnennungen möglich!<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Lehre (DDR: Facharbeiterabschluss)</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Berufsfachschule, Handelsschule, Schule des Gesundheitswesens</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Fachschule, z.B. Meister-, Technikerabschluss</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Beamtenausbildung</Text>
+</Texts>
+</Answer>
+<Answer Precode="6" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)</Text>
+</Texts>
+</Answer>
+<Answer Precode="7" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Universitäts-, Hochschulabschluss</Text>
+</Texts>
+</Answer>
+<Answer Precode="8" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Sonstiger Abschluss</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Multi>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q7LKNO</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Kinder</Title>
+<Text><![CDATA[Haben oder hatten sie Kinder?]]></Text>
+<Instruction><![CDATA[Gemeint sind leibliche oder adoptierte Kinder (nicht Pflege- oder Stiefkinder).]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ja</Text>
+</Texts>
+</Answer>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nein, hatte nie Kinder</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="15" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q8LKIND</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Anzahl Kinder</Title>
+<Text><![CDATA[Wenn ja, wie viele?]]></Text>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+</Routing>
+</Project>

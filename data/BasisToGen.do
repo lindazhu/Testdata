@@ -1,0 +1,1 @@
+gen BMI = PKILO/ (PGR/100)^2

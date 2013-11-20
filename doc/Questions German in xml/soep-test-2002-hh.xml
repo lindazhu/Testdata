@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://onlinetest.tns-global.com/confirm/authoringschema.xsd">
+<ProjectInfo ApprovalState_Int="0" ProjectType_Int="0" HasUploadedRespondents="false" Confirmit125_DBFormat_Support="false" ReusableDB_Support="false" EnforceVersion="false" NewLayoutEnabled="true" SurveyLayoutName="TNS 6D V1.0" SurveyLayoutId="(0:0-312187895#293419165, 674)" Status="production" DefaultLanguage="7" CustomNavigationType="Button" SurveyLogicMode="ConditionBased" ExternalTestEnabled="false" ExternalTestKey="" ShowDeleted="false" ProgressBar="false" ReservedErrorArea="false" BackButton="true" CapiBackButton="true" ContinueLink="false" AllowModify="true" AllowModifyComplete="true" Popup="false" AnswerRequired="true" Exclusivity="true" OtherSpecify="true" RankOrder="true" CapiLimitedSurvey="false" LoginPage="false" IsCapiBasedSurvey="false" IsWebBasedSurvey="true" CustomNavigationEnabled="false" LabelClick="false" RadioButtons="false" AutoNext="false" TabOnEnterKey="false" GridErrorHighlight="false" AnswerImageEnabled="false" Accessibility508="false" ErrorPrefix="false" OtherLabel="false" SingleSignOn="false" SingleSignOnFallback="false" OnlyUserId="false" DisplayPrecodesInCAPI="false" IsCapiSurveyIntegratedToFusion="false" WI_LaunchDate="4/7/2009 6:39:01 AM" QuotaVersion="1" PanelistRegistrationSurvey="false" ENC="0" LNC="0" BNC="0" PNC="0" SNC="0" FNC="8" MNC="0" HtmlEncodePipingExpressions="true" RequireXssSafeInput="true" EnforceHttps="false" EnableCAS="true" EncryptSystemRequestParameters="false" TestMode="false" IsEmpty="false" Use81WIGeneration="false">
+<Name><![CDATA[soep-test-2002-hh]]></Name>
+<Creator>DIW Hebing</Creator>
+<ApprovalStateDateChanged_Str>1/1/0001 12:00:00 AM</ApprovalStateDateChanged_Str>
+<Created>18-11-2013 15:24:19</Created>
+<CreatedDate>2009-03-18T15:40:45</CreatedDate>
+<TimeStamp>2009-04-07T06:38:49</TimeStamp>
+<ProjectStartDate>1970-01-01T01:00:00</ProjectStartDate>
+<ProjectEndDate>1970-01-01T01:00:00</ProjectEndDate>
+<Build></Build>
+<currentQuestionnaireVersion>1</currentQuestionnaireVersion>
+<QuestionnaireVersion>1</QuestionnaireVersion>
+<Languages><Language>7</Language></Languages>
+<ProjectID></ProjectID>
+<Company>TNS NL</Company>
+<CompanyId>21</CompanyId>
+<LogoFile />
+<ErrorRecipient>mhebing@diw.de</ErrorRecipient>
+<AnswerImageWidthRadioButton>-1</AnswerImageWidthRadioButton>
+<AnswerImageHeightRadioButton>-1</AnswerImageHeightRadioButton>
+<AnswerImageWidthCheckBox>-1</AnswerImageWidthCheckBox>
+<AnswerImageHeightCheckBox>-1</AnswerImageHeightCheckBox>
+<CustomNavigationNext />
+<CustomNavigationBack />
+<CustomNavigationOK />
+<HelpLinkTexts />
+<HelpLinkUrls />
+<EndLinkTexts />
+<EndLinkUrls />
+<Titles />
+<TranslationStatuses />
+<KeyWords />
+<QuestionnaireReviewerStatusRecipient />
+<QuestionnaireReviewerDisplayAnswersScales>false</QuestionnaireReviewerDisplayAnswersScales>
+<TranslationStatusRecipient />
+</ProjectInfo>
+<SurveyLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DefaultPageMasterName />
+<DefaultQuestionLayoutName />
+<LoginPageMasterName />
+<IsPublic>false</IsPublic>
+<ShowInExpress>false</ShowInExpress>
+<CompanySpecific>false</CompanySpecific>
+<Created>0001-01-01T00:00:00</Created>
+<Modified>0001-01-01T00:00:00</Modified>
+<QuestionLayouts />
+<PageLayouts />
+<PageMasters />
+<HtmlStyles />
+</SurveyLayout>
+<PredefinedLists />
+<Emails />
+<Routing>
+<Directive DirectiveType="Single">
+<PageMasterName />
+</Directive>
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q1HKIND</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Kinder </Title>
+<Text><![CDATA[Gibt es in Ihrem Haushalt Kinder, die erst 1986 oder später geboren sind?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ja</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nein</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="20" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q2HKIND Dummy</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Dummy für Anzahl Kinder</Title>
+<Text><![CDATA[Wie viele Kinder gibt es im Haushalt?<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="1986" UpperLimit="2010" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q3HKGEB ABCD</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Geburtsjahr Kind</Title>
+<Text><![CDATA[Bitte Geburtsjahr eintragen:<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q4HVJ</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Wohnungswechsel</Title>
+<Text><![CDATA[Haben Sie bei unserer letzten Befragung, also vor ungefähr einem Jahr,<br>schon in dieser Wohnung gelebt?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ja</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nein</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q5HWOHN08</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Wohngegend</Title>
+<Text><![CDATA[Wie würden Sie die Wohngegend hier beschreiben?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ein reines Wohngebiet mit überwiegend Altbauten</Text>
+</Texts>
+</Answer>
+<Answer Precode="6" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ein reines Wohngebiet mit überwiegend Neubauten</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ein Mischgebiet mit Wohnungen und Geschäften bzw. Gewerbebetrieben</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ein Geschäftszentrum (Läden, Banken, Verwaltungen) mit wenigen Wohnungen</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ein Gewerbe- bzw. Industriegebiet mit wenigen Wohnungen</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="9999" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q6HM04</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Miete in Euro</Title>
+<Text><![CDATA[Wie hoch ist derzeit die monatliche Miete? [Euro]<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open
+ NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q7HNETTO</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Alle Einkünfte im Monat</Title>
+<Text><![CDATA[Wenn man mal alle Einkünfte zusammennimmt:<br>Wie hoch ist das monatliche Haushaltseinkommen aller Haushaltsmitglieder heute?]]></Text>
+<Instruction><![CDATA[Bitte geben Sie den monatlichen Netto-Betrag an, also nach Abzug von Steuern und Sozialabgaben. Regelmäßige Zahlungen wie Renten, Wohngeld, Kindergeld, BAföG, Unterhaltszahlungen usw. rechnen Sie bitte dazu!<br><br>Falls nicht genau bekannt: Bitte schätzen Sie den monatlichen Betrag]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+</Routing>
+</Project>

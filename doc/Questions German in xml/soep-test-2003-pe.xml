@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://onlinetest.tns-global.com/confirm/authoringschema.xsd">
+<ProjectInfo ApprovalState_Int="0" ProjectType_Int="0" HasUploadedRespondents="false" Confirmit125_DBFormat_Support="false" ReusableDB_Support="false" EnforceVersion="false" NewLayoutEnabled="true" SurveyLayoutName="TNS 6D V1.0" SurveyLayoutId="(0:0-312187895#293419165, 674)" Status="production" DefaultLanguage="7" CustomNavigationType="Button" SurveyLogicMode="ConditionBased" ExternalTestEnabled="false" ExternalTestKey="" ShowDeleted="false" ProgressBar="false" ReservedErrorArea="false" BackButton="true" CapiBackButton="true" ContinueLink="false" AllowModify="true" AllowModifyComplete="true" Popup="false" AnswerRequired="true" Exclusivity="true" OtherSpecify="true" RankOrder="true" CapiLimitedSurvey="false" LoginPage="false" IsCapiBasedSurvey="false" IsWebBasedSurvey="true" CustomNavigationEnabled="false" LabelClick="false" RadioButtons="false" AutoNext="false" TabOnEnterKey="false" GridErrorHighlight="false" AnswerImageEnabled="false" Accessibility508="false" ErrorPrefix="false" OtherLabel="false" SingleSignOn="false" SingleSignOnFallback="false" OnlyUserId="false" DisplayPrecodesInCAPI="false" IsCapiSurveyIntegratedToFusion="false" WI_LaunchDate="4/7/2009 6:39:01 AM" QuotaVersion="1" PanelistRegistrationSurvey="false" ENC="0" LNC="0" BNC="0" PNC="0" SNC="0" FNC="8" MNC="0" HtmlEncodePipingExpressions="true" RequireXssSafeInput="true" EnforceHttps="false" EnableCAS="true" EncryptSystemRequestParameters="false" TestMode="false" IsEmpty="false" Use81WIGeneration="false">
+<Name><![CDATA[soep-test-2003-pe]]></Name>
+<Creator>DIW Hebing</Creator>
+<ApprovalStateDateChanged_Str>1/1/0001 12:00:00 AM</ApprovalStateDateChanged_Str>
+<Created>18-11-2013 15:23:26</Created>
+<CreatedDate>2009-03-18T15:40:45</CreatedDate>
+<TimeStamp>2009-04-07T06:38:49</TimeStamp>
+<ProjectStartDate>1970-01-01T01:00:00</ProjectStartDate>
+<ProjectEndDate>1970-01-01T01:00:00</ProjectEndDate>
+<Build></Build>
+<currentQuestionnaireVersion>1</currentQuestionnaireVersion>
+<QuestionnaireVersion>1</QuestionnaireVersion>
+<Languages><Language>7</Language></Languages>
+<ProjectID></ProjectID>
+<Company>TNS NL</Company>
+<CompanyId>21</CompanyId>
+<LogoFile />
+<ErrorRecipient>mhebing@diw.de</ErrorRecipient>
+<AnswerImageWidthRadioButton>-1</AnswerImageWidthRadioButton>
+<AnswerImageHeightRadioButton>-1</AnswerImageHeightRadioButton>
+<AnswerImageWidthCheckBox>-1</AnswerImageWidthCheckBox>
+<AnswerImageHeightCheckBox>-1</AnswerImageHeightCheckBox>
+<CustomNavigationNext />
+<CustomNavigationBack />
+<CustomNavigationOK />
+<HelpLinkTexts />
+<HelpLinkUrls />
+<EndLinkTexts />
+<EndLinkUrls />
+<Titles />
+<TranslationStatuses />
+<KeyWords />
+<QuestionnaireReviewerStatusRecipient />
+<QuestionnaireReviewerDisplayAnswersScales>false</QuestionnaireReviewerDisplayAnswersScales>
+<TranslationStatusRecipient />
+</ProjectInfo>
+<SurveyLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DefaultPageMasterName />
+<DefaultQuestionLayoutName />
+<LoginPageMasterName />
+<IsPublic>false</IsPublic>
+<ShowInExpress>false</ShowInExpress>
+<CompanySpecific>false</CompanySpecific>
+<Created>0001-01-01T00:00:00</Created>
+<Modified>0001-01-01T00:00:00</Modified>
+<QuestionLayouts />
+<PageLayouts />
+<PageMasters />
+<HtmlStyles />
+</SurveyLayout>
+<PredefinedLists />
+<Emails />
+<Routing>
+<Directive DirectiveType="Single">
+<PageMasterName />
+</Directive>
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q1PSEX</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Geschlecht</Title>
+<Text><![CDATA[Ihr Geschlecht:]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Männlich</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Weiblich</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="1891" UpperLimit="2001" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q2PPGEB</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Geburtsjahr</Title>
+<Text><![CDATA[Ihr Geburtsjahr:]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open
+ NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q3PPNAT</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Staatsangehörigkeit</Title>
+<Text><![CDATA[Welche Staatsangehörigkeit haben Sie?]]></Text>
+<Instruction><![CDATA[Bitte eintragen:<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q4PFAMST</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Familienstand</Title>
+<Text><![CDATA[Wie ist Ihr Familienstand?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Verheiratet, mit Ehepartner zusammenlebend</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Verheiratet, dauernd getrennt lebend</Text>
+</Texts>
+</Answer>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ledig</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Geschieden</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Verwitwet</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Multi FieldWidth="1" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q5PFS XXX 1</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>familiäre Veränderungen</Title>
+<Text><![CDATA[Hat sich an Ihrer familiären Situation nach dem 31.12.1999 etwas verändert?<br>Geben Sie bitte an, ob einer der folgenden Punkte zutrifft.<br>]]></Text>
+<Instruction><![CDATA[Zutreffendes bitte ankreuzen!<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="11" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Habe geheiratet</Text>
+</Texts>
+</Answer>
+<Answer Precode="21" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Bin mit Partner/Partnerin zusammengezogen</Text>
+</Texts>
+</Answer>
+<Answer Precode="31" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Kind wurde geboren</Text>
+</Texts>
+</Answer>
+<Answer Precode="111" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Kind kam in den Haushalt</Text>
+</Texts>
+</Answer>
+<Answer Precode="41" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Sohn/Tochter hat den Haushalt verlassen</Text>
+</Texts>
+</Answer>
+<Answer Precode="51" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Habe mich von Ehepartner/Lebenspartner getrennt</Text>
+</Texts>
+</Answer>
+<Answer Precode="61" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Wurde geschieden</Text>
+</Texts>
+</Answer>
+<Answer Precode="71" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Ehepartner/Lebenspartner ist verstorben</Text>
+</Texts>
+</Answer>
+<Answer Precode="81" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Vater ist verstorben</Text>
+</Texts>
+</Answer>
+<Answer Precode="91" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Mutter ist verstorben</Text>
+</Texts>
+</Answer>
+<Answer Precode="121" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Kind ist verstorben</Text>
+</Texts>
+</Answer>
+<Answer Precode="131" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Andere Person, die hier im Haushalt lebte, ist verstorben</Text>
+</Texts>
+</Answer>
+<Answer Precode="101" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Sonstige familiäre Veränderung</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Multi>
+
+<Grid FieldWidth="2" DataWriteAccessLevel="0" NotRequired="true" QuestionLayoutName="" LeftAndRightGridText="false" CardSortIncrement="2" CardSortDroppedIncrement="0">
+<Name>Q7PZUF XX</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Zufriedenheit</Title>
+<Text><![CDATA[Wie zufrieden sind Sie gegenwärtig mit den folgenden Bereichen Ihres Lebens?<br><br>Wie zufrieden sind Sie ...<br>]]></Text>
+<Instruction><![CDATA[Bitte kreuzen Sie für jeden Bereich auf der Skala einen Wert an:<br>Wenn Sie ganz und gar unzufrieden sind, den Wert "0",<br>wenn Sie ganz und gar zufrieden sind, den Wert "10".<br>Wenn Sie teils zufrieden/teils unzufrieden sind, einen Wert dazwischen.]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrer Gesundheit?</Text>
+</Texts>
+</Answer>
+<Answer Precode="20" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrem Schlaf?</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">(falls Sie erwerbstätig sind) mit Ihrer Arbeit?</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">(falls Sie im Haushalt tätig sind) mit Ihrer Tätigkeit im Haushalt?</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit dem Einkommen Ihres Haushalts?</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrem persönlichen Einkommen?</Text>
+</Texts>
+</Answer>
+<Answer Precode="7" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrer Wohnung?</Text>
+</Texts>
+</Answer>
+<Answer Precode="8" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrer Freizeit?</Text>
+</Texts>
+</Answer>
+<Answer Precode="13" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit Ihrem Familienleben?</Text>
+</Texts>
+</Answer>
+<Answer Precode="9" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">(falls Sie Kinder im Vorschulalter haben) mit den vorhandenen Möglichkeiten der Kinderbetreuung?</Text>
+</Texts>
+</Answer>
+<Answer Precode="12" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">mit der Demokratie, so wie sie in Deutschland besteht</Text>
+</Texts>
+</Answer>
+</Answers>
+<Scales>
+<Scale Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">ganz und gar unzufrieden 0</Text>
+</Texts>
+</Scale>
+<Scale Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">1</Text>
+</Texts>
+</Scale>
+<Scale Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">2</Text>
+</Texts>
+</Scale>
+<Scale Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">3</Text>
+</Texts>
+</Scale>
+<Scale Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">4</Text>
+</Texts>
+</Scale>
+<Scale Precode="6" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">5</Text>
+</Texts>
+</Scale>
+<Scale Precode="7" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">6</Text>
+</Texts>
+</Scale>
+<Scale Precode="8" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">7</Text>
+</Texts>
+</Scale>
+<Scale Precode="9" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">8</Text>
+</Texts>
+</Scale>
+<Scale Precode="10" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">9</Text>
+</Texts>
+</Scale>
+<Scale Precode="11" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">ganz und gar zufrieden 10</Text>
+</Texts>
+</Scale>
+</Scales>
+
+</Grid>
+
+<Open
+ NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q8PBER</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>berufliche Tätigkeit/genau</Title>
+<Text><![CDATA[Welche berufliche Tätigkeit üben Sie derzeit aus?]]></Text>
+<Instruction><![CDATA[Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht "kaufmännische<br>Angestellte", sondern: "Speditionskauffrau", nicht "Arbeiter", sondern: "Maschinenschlosser".<br>Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. "Polizeimeister",<br>oder "Studienrat". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="1" UpperLimit="1000000" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q9PVEK012</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Einkommen/Lohn Betrag</Title>
+<Text><![CDATA[Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: <br>Lohn/Gehalt als Arbeitnehmer (einschl. Ausbildungsvergütung, Altersteilzeitbezüge, Lohnfortzahlungen)<br><br>(Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="1" UpperLimit="1000000" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q10PVEK022</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Einkommen/selbstständige Tätigkeit Betrag</Title>
+<Text><![CDATA[Geben Sie bitte an, wie hoch im Durchschnitt der monatliche Betrag für folgende Einkunft war: <br>Einkommen aus selbstständiger/freiberuflicher Tätigkeit<br><br>(Gemeint ist der Bruttobetrag, also vor Abzug eventueller Steuern und Sozialversicherungsbeiträge).<br>]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q11PPOL1</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Politikinteresse</Title>
+<Text><![CDATA[Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Sehr stark</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Stark</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Nicht so stark</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Überhaupt nicht</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Single FieldWidth="3" AutoCheckOther="True" NotRequired="true" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName="">
+<Name>Q12PPOL3</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Partei</Title>
+<Text><![CDATA[Welcher Partei neigen Sie am ehesten zu?]]></Text>
+<Instruction><![CDATA[<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+<Answers>
+<Answer Precode="1" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">SPD</Text>
+</Texts>
+</Answer>
+<Answer Precode="2" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">CDU</Text>
+</Texts>
+</Answer>
+<Answer Precode="3" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">CSU</Text>
+</Texts>
+</Answer>
+<Answer Precode="4" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">FDP</Text>
+</Texts>
+</Answer>
+<Answer Precode="5" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Bündnis 90 / Die Grünen</Text>
+</Texts>
+</Answer>
+<Answer Precode="6" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Die Linke</Text>
+</Texts>
+</Answer>
+<Answer Precode="7" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">DVU / Republikaner / NPD</Text>
+</Texts>
+</Answer>
+<Answer Precode="8" ListSource="" SkipType="NoSkipping" SkipEndStatus="Complete">
+<Texts>
+<Text Language="7">Andere</Text>
+</Texts>
+</Answer>
+</Answers>
+
+</Single>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="230" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q13PGR</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Körpergröße</Title>
+<Text><![CDATA[Was ist Ihre Körpergröße in cm?<br>]]></Text>
+<Instruction><![CDATA[Wenn Sie es nicht genau wissen, schätzen Sie bitte.<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+<Open Fieldwidth="0"
+ Precision="0" LowerLimit="0" UpperLimit="300" Numeric="true" UpperLimitType="" LowerLimitType="" Columns="1" Rows="1" SliderSize="0" DataWriteAccessLevel="0" Characteristic="0" QuestionLayoutName=""><Name>Q14PKILO</Name>
+<FormTexts>
+<FormText Language="7">
+<Title>Körpergewicht</Title>
+<Text><![CDATA[Wie viel Kilogramm wiegen Sie gegenwärtig?<br>]]></Text>
+<Instruction><![CDATA[Wenn Sie es nicht genau wissen, schätzen Sie bitte.<br>]]></Instruction>
+</FormText>
+</FormTexts>
+<TranslationStatuses />
+</Open>
+
+</Routing>
+</Project>
